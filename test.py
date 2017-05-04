@@ -11,3 +11,6 @@ k = 30  # No. of clusters
 n = 100  # No. of iterations
 model = KHMean()  # Call the model
 centers = model.train(features_rdd, k, n)  # Train the model
+print(centers)
+
+sc.stop()
