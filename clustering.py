@@ -17,8 +17,8 @@ class KHMean:
 
     def train(self, rdd, k, maxIterations=100):
         """
-        This method finds the clusters based on the K Harmonic Mean algorithm.
-        This method is for implementation on spark
+        This method trains a model based on the K Harmonic Mean algorithm.
+        This method is for implementation using PySpark
 
         :param rdd: rdd
         a rdd of (longitude, latitude)
