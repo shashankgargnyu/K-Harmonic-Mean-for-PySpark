@@ -6,5 +6,7 @@ Implementation of K-Harmonic Mean for application in Pyspark
 2. PySpark
 
 ## How to Use
-An example of how to use the algorithm can be found in test.py
-The rdd passed to the train method should be a list of tuples or a list of lists
+An example of how to use the algorithm can be found in test.py.
+
+The rdd passed to the train method should be a list of tuples or a list of lists.
+The lists or tuples are the feature vectors and should all be floating point numbers or integers.

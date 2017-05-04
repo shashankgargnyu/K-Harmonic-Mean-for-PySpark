@@ -21,7 +21,8 @@ class KHMean:
         This method is for implementation using PySpark
 
         :param rdd: rdd
-        a rdd of (longitude, latitude)
+        a rdd of features vectors, a list of lists or a list of tuples
+        Feature vectors should be floating point numbers or integers.
         :param k: integer
         number of clusters
         :param maxIterations: integer
