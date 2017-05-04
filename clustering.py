@@ -26,7 +26,7 @@ class KHMean:
         :param k: integer
         number of clusters
         :param maxIterations: integer
-        number of iterations to run
+        number of iterations to run, default number of iterations = 100
         :return: list of lists
         centroids of the clusters
         """
